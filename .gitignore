@@ -1,0 +1,32 @@
+# Jupyter Notebook specific files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/*
+
+# Python specific files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Virtual environment files
+env/
+venv/
+.env/
+.venv/
+
+# Log files
+*.log
+
+# Data files (if not meant for version control)
+*.csv
+*.xlsx
+*.parquet
+*.hdf5
+
+# Other common temporary files
+*~
+.#*
